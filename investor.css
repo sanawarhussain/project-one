@@ -1,0 +1,596 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+#tablet {
+  display: none;
+}
+
+body {
+  font-family: Arial, sans-serif;
+}
+
+.container {
+  max-width: 1280px;
+  width: 90%;
+  margin: 0 auto;
+}
+
+header {
+  background-color: #ffffff;
+  position: sticky;
+  top: 0;
+  z-index: 1000;
+}
+
+.three-para {
+  display: none;
+}
+
+.icon-last-568 {
+  display: none;
+}
+.box2 {
+  display: none;
+}
+
+.top-bar-container {
+  display: flex;
+  justify-content: space-between;
+  text-align: center;
+  align-items: center;
+  background-color: #ffffff;
+  width: 100%;
+  height: 80px;
+}
+
+.logo {
+  display: flex;
+  align-items: center;
+}
+
+.fa-magnifying-glass {
+  background-color: black;
+}
+
+.invest {
+  font-size: 18px;
+  font-weight: 600;
+  padding-left: 10px;
+  color: #1e1e1e;
+  letter-spacing: 0.5px;
+}
+
+nav ul {
+  display: flex;
+  justify-content: center;
+  list-style: none;
+  font-size: 13px;
+  gap: 20px;
+}
+
+.overview {
+  position: relative;
+}
+
+.profile {
+  position: absolute;
+  top: 45px;
+  left: -145px;
+  display: none;
+  list-style: none;
+  background-color: white;
+  width: 100%;
+  min-width: 950px;
+  padding: 25px 15px;
+  color: black;
+}
+
+nav li:hover {
+  color: red;
+}
+
+.overview:hover .profile {
+  display: flex;
+}
+
+.icon {
+  display: flex;
+  gap: 30px;
+  margin-right: 20px;
+  align-items: center;
+}
+
+.fa-magnifying-glass {
+  color: white;
+  background-color: black;
+}
+
+.mag {
+  background-color: black;
+  padding: 30px 10px;
+  border-left: 15px solid red;
+}
+i.fa-solid.fa-circle-half-stroke {
+  align-items: center;
+}
+
+/* this is hero section */
+
+#hero {
+  width: 100%;
+  min-height: 400px;
+}
+
+.hero-container {
+  display: flex;
+  width: 100%;
+  min-height: 400px;
+}
+
+.right-hero {
+  width: 60%;
+  min-height: 400px;
+
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-start;
+
+  color: white;
+  line-height: 28px;
+
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  background-image:
+    linear-gradient(
+      to bottom,
+      rgba(0, 0, 0, 0.5),
+      rgba(0, 0, 0, 0.5),
+      rgba(0, 0, 0, 0.5)
+    ),
+    url(assests/slider1.jpg);
+
+  padding: 40px 60px;
+}
+
+.right-hero h2 {
+  font-size: 52px;
+  line-height: 80px;
+}
+
+.right-hero p {
+  font-size: 16px;
+  letter-spacing: 0.08px;
+}
+
+.left-hero {
+  width: 40%;
+
+  display: flex;
+  align-items: center;
+
+  background-color: #221f1f;
+  color: #ffff;
+  border-left: 80px solid #e50914;
+}
+
+.all-text {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+
+  line-height: 1.8;
+  letter-spacing: 0.6px;
+  padding: 40px;
+}
+
+.dollar {
+  font-size: 50px;
+  font-weight: 600;
+}
+
+.nflx {
+  font-size: 16px;
+  font-weight: 600;
+}
+
+.percent {
+  font-size: 18px;
+}
+
+.volume {
+  font-size: 18px;
+  font-weight: 600;
+}
+
+.Pricing {
+  font-size: 12px;
+  color: #adadad;
+}
+
+.last {
+  font-size: 12px;
+  color: #adadad;
+}
+
+/* section 2 investor kit & investor events  */
+
+#Investor-events-kit {
+  background-color: #ffffff;
+}
+
+.investor-events-container {
+  display: flex;
+  justify-content: center;
+  background-color: #ffffff;
+  padding: 40px 0px;
+  gap: 20px;
+}
+
+/*  Investor Events */
+
+.investor-events h2 {
+  font-size: 30px;
+  font-weight: 600;
+}
+
+.head-content {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 20px;
+}
+
+.investor-kit ul li a {
+  text-decoration: none;
+  color: inherit;
+}
+.end {
+  height: 20px;
+  width: 20px;
+}
+
+.investor-kit h2 {
+  font-size: 30px;
+  font-weight: 600;
+  margin-bottom: 20px;
+}
+
+.investor-events-card {
+  background-color: #ffffff;
+  box-shadow: 0px 0px 6.02px 0.98px rgba(0, 0, 0, 0.17);
+  border-bottom: 10px solid transparent;
+  padding: 40px 35px;
+  line-height: 2.4;
+}
+
+.investor-events-card:hover {
+  border-bottom: 10px solid red;
+}
+
+.investor-events-card-para a {
+  font-size: 24px;
+  text-decoration: none;
+  color: inherit;
+}
+.investor-events-card-para a:hover {
+  color: red;
+}
+
+.icons-investor {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+}
+
+.icons-investor img {
+  height: 20px;
+  width: 20px;
+}
+
+.icons-investor a {
+  color: inherit;
+  text-decoration: none;
+}
+
+.annual {
+  display: flex;
+  flex-direction: column;
+}
+
+.webcast {
+  text-decoration: none;
+  color: inherit;
+}
+
+.annual-para a {
+  font-size: 24px;
+  color: inherit;
+  text-decoration: none;
+}
+
+.annual-para:hover {
+  color: red;
+}
+
+.same-icon {
+  color: rgb(244, 63, 63);
+}
+
+/*  Investor kit  */
+
+.investor-kit ul {
+  list-style: none;
+  background-color: #ffffff;
+  padding: 45px 34px 70px 34px;
+  box-shadow: 0px 0px 6.02px 0.98px rgba(0, 0, 0, 0.17);
+  line-height: 4.4;
+  font-weight: 700;
+  font-size: 25px;
+  letter-spacing: 1px;
+}
+
+.investor-kit ul li {
+  border-bottom: 2px solid #d0d0d0;
+}
+
+.investor-kit ul li a:hover {
+  color: red;
+  border-left: 2px solid #e50914;
+}
+
+.video-youtube {
+  display: flex;
+  flex-direction: column;
+  margin-top: 20px;
+  color: red;
+  font-weight: 600;
+}
+
+#financial-releases-and-updates {
+  background-color: #f5f5f1;
+}
+
+/* this is 3rd section financial Releases & Updates */
+
+.financial-container {
+  width: 100%;
+  height: 400px;
+  background-image: url(assests/financial-releases-bg.png);
+  background-position: right;
+  background-repeat: no-repeat;
+  background-color: #f5f5f1;
+  padding-top: 0px;
+  padding-bottom: 80px;
+}
+
+.financial-container h3 {
+  font-size: 30px;
+  font-weight: 600;
+}
+
+.financial-content {
+  display: flex;
+  justify-content: space-around;
+  padding: 30px 0px;
+}
+
+.box {
+  display: flex;
+  justify-content: space-around;
+  gap: 20px;
+}
+
+.box1 {
+  box-shadow: 0px 0px 6.02px 0.98px rgba(0, 0, 0, 0.17);
+  padding: 35px 20px 15px 20px;
+  background-color: #fff;
+  border-bottom: 10px solid transparent;
+  font-size: 24px;
+  letter-spacing: 0.12px;
+  line-height: 32px;
+  max-width: 100%;
+}
+
+.box1 p {
+  color: red;
+}
+
+.box1:hover {
+  border-bottom: 10px solid red;
+}
+.box1 a {
+  text-decoration: none;
+  color: inherit;
+}
+
+.box1 span {
+  font-size: 14px;
+}
+
+.box-date {
+  font-weight: 600;
+}
+
+.btn button {
+  font-size: 18px;
+  text-transform: uppercase;
+  background-color: #e50914;
+  color: #fff;
+  font-weight: 800;
+  align-items: center;
+  padding: 11px 20px;
+  border: none;
+  z-index: 1;
+}
+
+.btn {
+  text-align: center;
+  margin: 40px;
+}
+
+.btn button:hover {
+  color: red;
+  background-color: transparent;
+  border: 1px solid red;
+}
+
+/*  this is quarterly eaarning section  */
+
+#quarterly-earnings {
+  background-color: #221f1f;
+}
+
+.quarterly {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+  color: white;
+  gap: 20px;
+}
+
+.quarterly-heading h4 {
+  font-size: 30px;
+  align-items: center;
+  margin: 20px;
+}
+
+.scnd-head {
+  font-size: 24px;
+  margin-bottom: 30px;
+}
+
+.quarterly-center {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 20px;
+  width: 100%;
+}
+
+.q1-c {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: white;
+}
+
+.q1-c a {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 8px;
+  text-decoration: none;
+  color: #333;
+}
+
+.q1-c span {
+  text-align: center;
+  color: white;
+}
+
+/* this is quick links section  */
+
+#quick-links {
+  background-color: #f5f5f1;
+}
+
+.quick {
+  display: flex;
+  
+  padding: 75px 0px;
+}
+
+.quick-left {
+  width: 25%;
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+  font-size: 30px;
+  font-weight: 600;
+
+  box-shadow: rgba(0, 0, 0, 5.17) 0px 0px 6.02px 0.98px;
+  background-color: black;
+  color: white;
+  border-right: 15px solid red;
+}
+
+.quick-right {
+  width: 75%;
+
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+
+  box-shadow: rgba(0, 0, 0, 5.17) 0px 0px 6.02px 0.98px;
+  background-color: #ffffff;
+
+  padding: 80px 0px;
+}
+
+.quick-right img {
+  height: 100px;
+  width: 100px;
+}
+
+.quick-right a {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+  gap: 30px;
+
+  text-decoration: none;
+  color: inherit;
+}
+
+.quick-right-content {
+  font-size: 24px;
+  font-weight: 600;
+  text-align: center;
+}
+
+/* footer */
+
+.bottom-bar-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  height: 80px;
+}
+
+.icon-bottom-bar {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+.icon-last {
+  display: flex;
+  gap: 30px;
+  font-size: 20px;
+  stroke-width: 20px;
+}
+
+.last-word {
+  display: flex;
+  gap: 20px;
+  align-items: end;
+  font-size: 12px;
+  color: #221f1f;
+}
+
+.icon-bottom-bar a {
+  text-decoration: none;
+  color: inherit;
+}
+
+.fa-facebook {
+  border-radius: 20px;
+  stroke-width: 20px;
+}
