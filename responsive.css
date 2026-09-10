@@ -1,0 +1,233 @@
+@media (max-width: 768px) {
+  .top-bar-text {
+    font-size: 16px;
+    padding: 14px;
+  }
+
+  .gift-box i {
+    margin: 14px 212px;
+  }
+
+  img {
+    width: 17%;
+  }
+
+  .center-content {
+    margin-top: 80px;
+  }
+
+  .logo-btn {
+    width: 93%;
+  }
+
+  .Ready {
+    width: 60%;
+  }
+
+  .main-heading h1 {
+    font-weight: 400px;
+    font-size: 30px;
+    width: 100%;
+    max-width: 70%;
+  }
+
+  .main-heading {
+    gap: 10px;
+  }
+
+  .bold {
+    font-weight: 800;
+    padding: 20px;
+  }
+
+  .card1 {
+    height: 73%;
+    padding: 15px 9px;
+    background: linear-gradient(to right, rgb(6, 6, 64), rgb(63, 4, 63));
+  }
+
+  .bold {
+    font-weight: 400;
+    padding: 15px;
+  }
+
+  .form button {
+    font-size: 18px;
+    font-weight: 600;
+    padding: 10px 20px;
+  }
+
+  .Ready {
+    line-height: 1.7;
+  }
+
+  .form {
+    margin: 15px 0px;
+    flex-wrap: wrap;
+  }
+
+  .input-email {
+    padding-left: 10px;
+    height: 30px;
+    width: 200px;
+  }
+
+  .reasons {
+    padding: 20px 30px;
+  }
+
+  .button-footer button {
+    font-size: 18px;
+    font-weight: 600;
+    padding: 7px 8px;
+  }
+
+  footer {
+    padding: 32px 32px;
+    row-gap: 20px;
+  }
+
+  nav {
+    display: grid;
+    grid-template-columns: 2fr 2fr;
+    gap: 20px;
+  }
+
+  .Questions a {
+    line-height: 4.5;
+  }
+
+  .card {
+    display: grid;
+    grid-template-columns: 1fr;
+    gap: 0px;
+  }
+}
+
+@media (max-width: 568px) {
+  .top-bar-container {
+    justify-content: center;
+    align-items: center;
+  }
+
+  .top-bar-text {
+    font-size: 5px;
+  }
+
+  .logo-btn {
+    max-width: 90%;
+  }
+
+  img {
+    width: 20%;
+  }
+
+  .sign_in button {
+    padding: 8px 16px;
+    white-space: nowrap;
+    font-weight: 600;
+  }
+
+  .main-heading h1 {
+    font-size: 30px;
+    width: 100%;
+    max-width: 95%;
+  }
+
+  .form {
+    flex-wrap: wrap;
+    margin: 15px 0px;
+  }
+
+  .form .input-email {
+    height: 60%;
+    width: 80%;
+  }
+
+  .button-footer {
+    flex-wrap: wrap;
+    justify-content: flex-start;
+    row-gap: 20px;
+  }
+
+  input {
+    height: 40%;
+    width: 40%;
+  }
+
+  .monitor {
+    text-align: end;
+  }
+
+  .reasons h2 {
+    margin: 40px 5px 20px 5px;
+  }
+
+  .card1 {
+    height: 88%;
+  }
+
+  .hide-on-mobile {
+    display: none;
+  }
+
+  .num {
+    width: 30px;
+    height: 15px;
+    font-size: 60px;
+    bottom: 70px;
+    left: -10px;
+  }
+
+  .trending-container {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    padding: 20px 20px 0px 20px;
+  }
+
+  .trending-now h2 {
+    font-size: 18px;
+    padding: 36px 0px 0px 20px;
+  }
+
+  .img1 {
+    width: 100%;
+  }
+}
+
+@media (max-width: 426px) {
+  .hide-on-small-mobile {
+    display: none;
+  }
+
+  .num {
+    width: 30px;
+    height: 15px;
+    font-size: 60px;
+    bottom: 70px;
+    left: -10px;
+  }
+
+  .trending-container {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    padding: 20px 20px 0px 20px;
+  }
+
+  .trending-now h2 {
+    font-size: 18px;
+    padding: 36px 0px 0px 20px;
+  }
+
+  .img1 {
+    width: 100%;
+  }
+
+  .button-footer input {
+    height: 50px;
+
+    width: 350px;
+  }
+}
